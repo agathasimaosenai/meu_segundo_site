@@ -1,0 +1,174 @@
+
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+    color: lightskyblue;
+}
+.cabecalho {
+    background-color: #031857;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #6179c3;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6179c3;
+}
+.secao {
+    text-align: center;
+}
+.menu a {
+    color: #6179c3;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.6s ease;
+}
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.tituloSecao {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #6179c3;
+}
+.subtitulo {
+    color: #6179c3;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.trabalhos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+.servicos {
+    background-color: #031857;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #6179c3;
+    display: flex;
+    flex-direction: column;
+}
+.servicos:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px #27459f;
+}
+.imgServico {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+.titulo{
+    font-size: 20px;
+    margin: 5px 0 10px 10px;
+}
+.conteudo{
+    font-size: 18px;
+    color: #6179c3;
+    line-height: 1.1;
+    margin: 0 10px 15px 10px;
+    flex-grow: 1;
+}
+.informacao {
+    background-color: #031857;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px #6179c3;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.areaInscricao {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.colunaForm {
+    flex: 1;
+    min-width: 320px;
+    background-color: #112973;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #6179c3;
+}
+.colunaMidia {
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    gap: 20px;
+
+    background-color: #112973;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #6179c3;
+}
+.colunaForm label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6179c3;
+}
+.colunaForm input[type="text"],
+.colunaForm input[type="password"],
+.colunaForm input[type="email"],
+.colunaForm input[type="date"],
+.colunaForm select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: #112973;
+    border-radius: 5px;
+    color: #6179c3;
+    font-size: 14px;
+}
+.btnEnviar {
+    background-color: #6179c3;
+    color: #031857;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btnEnviar:hover {
+    background-color: #294597;
+}
+.btnLimpar {
+    background-color: #6179c3;
+    color: #031857;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btnLimpar:hover {
+    background-color: #294597;
+}
+.rodape{
+    background-color: #031857;
+    color: #6179c3;
+    max-width: 1700px;
+    padding: 10px;
+    text-align: center;
+}
+.rodapeUm{
+    background-color: #031857;
+    color: #6179c3;
+    max-width: 1700px;
+    padding: 10px;
+    text-align: center;
+    border-top: 3px solid #6179c3;
+}
